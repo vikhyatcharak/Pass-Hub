@@ -25,11 +25,11 @@ const UI = () => {
     const handleShow = () => {
         const img = ref.current.querySelector("img")
         if (img.src.includes("/hide.jpg")) {
-            img.src = "/eye.svg"
+            img.src = "/Pass-Hub/eye.svg"
             passRef.current.type = "password"
         }
         else {
-            img.src = "/hide.jpg"
+            img.src = "/Pass-Hub/hide.jpg"
             passRef.current.type = "text"
         }
     }
@@ -145,7 +145,7 @@ const UI = () => {
                     <input value={form.userName} onChange={handleChange} name='userName' type="text" className='text-xs sm:text-base w-full rounded-full p-1 px-4 border border-green-900' placeholder='Enter username' />
                     <div className='relative w-full flex items-center'>
                         <input value={form.pass} ref={passRef} onChange={handleChange} name='pass' type="password" className='text-xs sm:text-base w-full rounded-full p-1 px-4 border border-green-900' placeholder=' Enter password' />
-                        <span ref={ref} onClick={handleShow} className='absolute right-0  px-2 hover:cursor-pointer'><img src="/eye.svg" alt="show" className='w-6' /></span>
+                        <span ref={ref} onClick={handleShow} className='absolute right-0  px-2 hover:cursor-pointer'><img src="/Pass-Hub/eye.svg" alt="show" className='w-6' /></span>
                     </div>
                 </div>
                 <button disabled={form.pass.length < 1 || form.site.length < 1 || form.userName.length < 1} onClick={savePass} className='text-white w-fit rounded-full p-2 bg-green-800 flex justify-center mx-auto items-center gap-1 hover:bg-green-600 border-2 border-green-900 disabled:bg-green-950'>
