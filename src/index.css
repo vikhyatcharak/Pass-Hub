@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+.Toastify__toast-container {
+    z-index: 9999 !important;
+}
+.Toastify__toast {
+    z-index: 9999 !important;
+}
