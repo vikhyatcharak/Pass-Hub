@@ -1,8 +1,27 @@
-# React + Vite
+PassHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- PassHub is a secure and user-friendly password manager built with React, Vite, and Tailwind CSS. It allows users to store, manage, and access their passwords with ease while ensuring data security using local 
+  storage.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features:
+
+  - Secure Password Storage: Safely store and manage user credentials.
+  
+  - Add, Edit, Copy & Delete Passwords: Perform CRUD operations on saved passwords.
+  
+  - React-Toastify Notifications: Get real-time notifications for actions like adding or deleting passwords.
+  
+  - Local Storage Support: Passwords are stored securely using local storage.
+  
+  - Modern UI: Built with Tailwind CSS for a sleek and responsive design.
+
+Tech Stack
+
+  - React: Frontend framework for building dynamic UI components.
+  
+  - Vite: Lightning-fast build tool for efficient development.
+  
+  - Tailwind CSS: Utility-first CSS framework for designing responsive interfaces.
+  
+  - React-Toastify: For user-friendly notifications.
