@@ -1,10 +1,10 @@
-PassHub
+# PassHub
 
-- PassHub is a secure and user-friendly password manager built with React, Vite, and Tailwind CSS. It allows users to store, manage, and access their passwords with ease while ensuring data security using local 
+PassHub is a secure and user-friendly password manager built with React, Vite, and Tailwind CSS. It allows users to store, manage, and access their passwords with ease while ensuring data security using local 
   storage.
 
 
-Features:
+## Features:
 
   - Secure Password Storage: Safely store and manage user credentials.
   
@@ -16,7 +16,7 @@ Features:
   
   - Modern UI: Built with Tailwind CSS for a sleek and responsive design.
 
-Tech Stack
+## Tech Stack
 
   - React: Frontend framework for building dynamic UI components.
   
@@ -25,3 +25,6 @@ Tech Stack
   - Tailwind CSS: Utility-first CSS framework for designing responsive interfaces.
   
   - React-Toastify: For user-friendly notifications.
+
+## Link:
+  - https://vikhyatcharak.github.io/Pass-Hub/
